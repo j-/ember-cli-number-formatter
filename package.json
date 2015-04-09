@@ -1,0 +1,23 @@
+{
+  "name": "ember-cli-number-formatter",
+  "version": "0.0.0",
+  "description": "Exposes number-formatter npm package to Ember CLI app",
+  "author": "Jamie Hoeks <j@skeoh.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/j-/ember-cli-number-formatter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/j-/ember-cli-number-formatter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/j-/ember-cli-number-formatter/issues"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "number-formatter": "^1.1.7"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "ember-addon"
+  ]
+}
