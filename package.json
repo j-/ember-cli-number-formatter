@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-number-formatter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Exposes number-formatter npm package to Ember CLI app",
   "author": "Jamie Hoeks <j@skeoh.com>",
   "license": "MIT",
