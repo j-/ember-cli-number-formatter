@@ -8,7 +8,8 @@ module.exports = {
     this.treePaths['vendor'] = 'node_modules';
   },
 
-  included: function () {
-    this.app.import('vendor/number-formatter/lib/format.js');
+  included: function (app) {
+    this._super.included(app);
+    app.import('vendor/number-formatter/lib/format.js');
   }
 };
